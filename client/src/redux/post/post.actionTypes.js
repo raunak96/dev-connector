@@ -1,0 +1,13 @@
+const postActionTypes={
+    START_ACTION: "START_ACTION",
+    GET_POSTS:"GET_POSTS",
+    GET_POST:"GET_POST",
+    ADD_POST:"ADD_POST",
+    DELETE_POST:"DELETE_POST",
+    POST_ERROR:"POST_ERROR",
+    UPDATE_LIKE:"UPDATE_LIKE",
+    ADD_COMMENT:"ADD_COMMENT",
+    DELETE_COMMENT:"DELETE_COMMENT"
+};
+
+export default postActionTypes;
